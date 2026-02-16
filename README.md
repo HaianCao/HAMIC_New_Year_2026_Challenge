@@ -20,7 +20,7 @@
     - [ALGO Task](#algo-task-heterogeneous-fleet-pdp-vrp)
     - [CV Task](#cv-task-facial-age-regression)
     - [NLP Task](#nlp-task-vietnamese-social-emotion-recognition)
-<!-- - [Starter Kit](#starter-kit) -->
+- [Starter Kit](#starter-kit)
 - [Các mốc thời gian quan trọng](#các-mốc-thời-gian-quan-trọng)
 - [Cách thức tham gia](#cách-thức-tham-gia)
 - [Quy định cuộc thi](#quy-định-cuộc-thi)
@@ -916,22 +916,15 @@ Submission sai định dạng sẽ **không được chấm điểm**.
 "3994","sadness"
 ```
 
-
-
-<!--
 # Starter Kit
 
-Chúng tôi cung cấp **starter kit** và **script đánh giá** để giúp người tham gia bắt đầu dễ dàng hơn.
+Chúng tôi cung cấp **starter kit** cho từng bài toán để giúp người tham gia bắt đầu dễ dàng hơn. Mỗi starter kit bao gồm hướng dẫn chi tiết và notebook mẫu.
 
-- **Script đánh giá**: Nằm trong thư mục [`evaluation_script/`](./evaluation_script/)
-- **File nộp mẫu**: Nằm trong thư mục [`sample_submission_files/`](./sample_submission_files/)
+- **ALGO Task**: [`starter_kit/ALGO_Task/`](./starter_kit/ALGO_Task/)
+- **CV Task**: [`starter_kit/CV_Task/`](./starter_kit/CV_Task/)
+- **NLP Task**: [`starter_kit/NLP_Task/`](./starter_kit/NLP_Task/)
 
-Cách sử dụng script đánh giá:
-```bash
-pip install -r evaluation_script/requirements.txt
-python evaluation_script/evaluation_scripts.ipynb
-```
--->
+Ngoài ra, bạn có thể tham khảo **Script đánh giá** tại [`evaluation_script/`](./evaluation_script/) và **File nộp mẫu** tại [`sample_submission_files/`](./sample_submission_files/).
 
 # Các mốc thời gian quan trọng
 
@@ -1024,6 +1017,9 @@ ID,Emotion
 - [Script đánh giá](./evaluation_script/README.md)
 - [Thư mục dữ liệu](./task-dataset/)
 - [Thư mục nộp mẫu (Sample Submission)](./sample_submission_files/)
+- [Starter Kit (ALGO)](./starter_kit/ALGO_Task/)
+- [Starter Kit (CV)](./starter_kit/CV_Task/)
+- [Starter Kit (NLP)](./starter_kit/NLP_Task/)
 
 # Ban tổ chức
 
