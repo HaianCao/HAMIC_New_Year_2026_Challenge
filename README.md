@@ -1,9 +1,6 @@
 
-# HAMIC New Year 2026 Challenge
-
-
 <div align="center">
-  <img src="./assets/banner.png" width="30%">
+  <img src="./assets/banner.jpg" width="100%">
 </div>
 
 
@@ -12,8 +9,8 @@
 | Task | Bài toán | Mô tả ngắn | Link tham gia |
 | :--- | :--- | :--- | :--- |
 | **🚚 ALGO** | **Heterogeneous Fleet PDP-VRP** | Tối ưu hóa lộ trình giao hàng với đội xe không đồng nhất. | [**Tham gia ngay**](https://www.kaggle.com/competitions/hamic-new-year-2026-algo-task) |
-| **📷 CV** | **Age Regression** | Dự đoán tuổi người từ ảnh khuôn mặt. | [**Tham gia ngay**](https://www.kaggle.com/competitions/hamic-new-year-2026-cv-task) |
-| **💬 NLP** | **Emotion Classification** | Phân loại cảm xúc bình luận tiếng Việt. | [**Tham gia ngay**](https://www.kaggle.com/competitions/hamic-new-year-2026-nlp-task) |
+| **📷 CV** | **Facial Age Regression** | Ước lượng tuổi từ ảnh thực tế (in-the-wild). | [**Tham gia ngay**](https://www.kaggle.com/competitions/hamic-new-year-2026-cv-task) |
+| **💬 NLP** | **Vietnamese Social Emotion Recognition** | Nhận diện 7 loại cảm xúc từ bình luận mạng xã hội. | [**Tham gia ngay**](https://www.kaggle.com/competitions/hamic-new-year-2026-nlp-task) |
 
 ---
 
@@ -21,8 +18,8 @@
 - [Tổng quan](#tổng-quan)
 - [Mô tả bài toán](#mô-tả-bài-toán)
     - [ALGO Task](#algo-task-heterogeneous-fleet-pdp-vrp)
-    - [CV Task](#cv-task-dự-đoán-tuổi-age-regression)
-    - [NLP Task](#nlp-task-phân-loại-cảm-xúc-emotion-classification)
+    - [CV Task](#cv-task-facial-age-regression)
+    - [NLP Task](#nlp-task-vietnamese-social-emotion-recognition)
 <!-- - [Starter Kit](#starter-kit) -->
 - [Các mốc thời gian quan trọng](#các-mốc-thời-gian-quan-trọng)
 - [Cách thức tham gia](#cách-thức-tham-gia)
@@ -36,8 +33,10 @@
 
 # Mô tả bài toán
 
-
 ## ALGO Task: Heterogeneous Fleet PDP-VRP
+<div align="center">
+  <img src="./assets/ALGO_Task.jpg" width="100%">
+</div>
 
 Trong các hệ thống logistics và vận tải hiện đại, doanh nghiệp thường phải xử lý đồng thời nhiều đơn hàng với yêu cầu nhận và giao tại các vị trí khác nhau. Việc lập kế hoạch lộ trình hiệu quả cho đội xe, đặc biệt khi các phương tiện có tải trọng và chi phí vận hành khác nhau, là một bài toán tối ưu quan trọng trong lĩnh vực thuật toán và nghiên cứu vận trù học.
 
@@ -421,10 +420,15 @@ ID,Test,Vehicle_ID,Order_ID,Type,Stop_Order
 2,1,V001,O001,Delivery,2
 ```
 
+---
 
-## CV Task: Dự đoán Tuổi (Age Regression)
+## CV Task: Facial Age Regression
+<div align="center">
+  <img src="./assets/CV_Task.jpg" width="100%">
+</div>
 
-Trong lĩnh vực Computer Vision, việc trích xuất thông tin nhân khẩu học từ ảnh khuôn mặt là một bài toán quan trọng với nhiều ứng dụng thực tế. Một trong những nhiệm vụ phổ biến và đầy thách thức là **dự đoán tuổi của người trong ảnh**.
+
+Trong lĩnh vực Computer Vision, việc trích xuất thông tin nhân khẩu học từ ảnh khuôn mặt là một bài toán quan trọng với nhiều ứng dụng thực tế. Một trong những nhiệm vụ phổ biến và đầy thách thức là **ước lượng tuổi từ khuôn mặt trong điều kiện tự nhiên**.
 
 Khả năng ước lượng tuổi tự động có ý nghĩa lớn trong nhiều hệ thống:
 
@@ -661,7 +665,12 @@ ID,Age
 0002,41
 ```
 
-## NLP Task: Phân loại Cảm xúc (Emotion Classification)
+---
+
+## NLP Task: Vietnamese Social Emotion Recognition
+<div align="center">
+  <img src="./assets/NLP_Task.jpg" width="100%">
+</div>
 
 Trong thời đại mạng xã hội, mỗi ngày có hàng triệu comment được tạo ra, phản ánh cảm xúc và phản ứng của người dùng trước nội dung trực tuyến. Tự động nhận diện cảm xúc từ văn bản là một bài toán quan trọng trong Natural Language Processing (NLP).
 
