@@ -3,7 +3,7 @@
 
 
 <div align="center">
-  <img src="./assets/banner.png" width="50%">
+  <img src="./assets/banner.png" width="30%">
 </div>
 
 
@@ -20,9 +20,9 @@
 # Nội dung
 - [Tổng quan](#tổng-quan)
 - [Mô tả bài toán](#mô-tả-bài-toán)
-    - [ALGO Task](#algo-task)
-    - [CV Task](#cv-task)
-    - [NLP Task](#nlp-task)
+    - [ALGO Task](#algo-task-heterogeneous-fleet-pdp-vrp)
+    - [CV Task](#cv-task-dự-đoán-tuổi-age-regression)
+    - [NLP Task](#nlp-task-phân-loại-cảm-xúc-emotion-classification)
 <!-- - [Starter Kit](#starter-kit) -->
 - [Các mốc thời gian quan trọng](#các-mốc-thời-gian-quan-trọng)
 - [Cách thức tham gia](#cách-thức-tham-gia)
@@ -784,18 +784,25 @@ Kết quả được đánh giá bằng chỉ số **F1 Score (Macro F1)** với
 - **False Positive (FP)**: Dự đoán là nhãn đó nhưng thực tế không phải.
 - **False Negative (FN)**: Thực tế là nhãn đó nhưng mô hình không dự đoán đúng.
 - **Precision**: Trong tất cả các comment mà mô hình dự đoán thuộc về 1 nhãn, có bao nhiêu comment thực sự đúng.
+
 $$
 Precision = \frac{TP}{TP + FP}
 $$
+
 - **Recall**: Trong tất cả các comment thực sự thuộc về 1 nhãn, mô hình nhận diện đúng được bao nhiêu.
+
 $$
 Recall = \frac{TP}{TP + FN}
 $$
+
 - **F1 Score**: cân bằng giữa Precision và Recall.
+
 $$
 F1 = \frac{2 \times Precision \times Recall}{Precision + Recall} = \frac{2TP}{2TP + FP + FN}
 $$
+
 - **Macro F1 Score**:
+
 $$
 Macro\ F1 = \frac{F1_{anger} + F1_{disgust} + F1_{enjoyment} + F1_{fear} + F1_{sadness} + F1_{surprise} + F1_{other}}{7}
 $$
